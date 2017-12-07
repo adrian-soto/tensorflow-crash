@@ -1,22 +1,27 @@
 #!/bin/bash
 
-
-# Create new conda environment
+echo ""
+echo "Creating new conda environment"
 conda create -n tensorflow python=2.7
 
-# Activate environment
+echo ""
+echo "Activating environment"
 source activate tensorflow
 
-# Ensure iPython is installed IN THE ENVIRONMENT
+echo ""
+echo "Ensuring iPython is installed IN THE ENVIRONMENT"
 conda install ipython
-pip install jupyter (if want to use notebooks)
+pip install jupyter 
 
-# Install tensorflow 
+echo ""
+echo "Install tensorflow"
 pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.4.0-py2-none-any.whl
 
-# Test Tensorflow
+echo ""
+echo "Testing Tensorflow"
 ipython test_tf.py 
 
-# This tutorial also requires numpy and matplotlib
+echo " Installing numpy and matplotlib in the environment"
 conda install numpy
 conda install matplotlib
+
