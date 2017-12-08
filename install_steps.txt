@@ -1,6 +1,9 @@
+Steps for Tensorflow installation with Anaconda
 
 1. Create new conda environment
   $ conda create -n tensorflow python=2.7
+      OR
+  $ conda create -n tensorflow python=3.6
 
 2. Activate environment
   $ source activate tensorflow
@@ -11,6 +14,8 @@
 
 4. Install tensorflow 
   $ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.4.0-py2-none-any.whl
+     OR
+  $ pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.4.0-py3-none-any.whl
 
 5. Test Tensorflow
   $ ipython
