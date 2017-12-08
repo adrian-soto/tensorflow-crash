@@ -29,8 +29,19 @@ There are several files in this repository:
 ## Authors
 * **Adrián Soto**
 
+
+## Useful links
+- Tensorflow
+www.tensorflow.org
+
+- An example to build and train a convolutional autoencoder using Cloud ML
+https://github.com/astromz/autoencoder-cloudML-exmp
+
+- An overview of gradient descent optimization algorithms
+http://ruder.io/optimizing-gradient-descent/
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+
