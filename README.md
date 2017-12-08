@@ -19,7 +19,7 @@ Please ensure these packages are installed before attempting to run the iPython 
 ## Getting Started
 
 There are several files in this repository:
-- install_tf.sh installs Tensorflow on your machine 
+- install_steps.txt describes how to install Tensorflow with Anaconda and points to resources with installation instructions
 - data_generator.ipynb creates synthetic data in the shape of a donut. This data will be used as an example.
 - donut_2000.ipynb and donut_20000.ipynb are example files created with data_generator.ipynb
 - neural_net_example.ipynb contains several examples of neural networks for classification on the donut data.
